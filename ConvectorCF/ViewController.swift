@@ -9,11 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+    
+    @IBAction func slider(_ sender: UISlider) {
     }
-
-
+    
+    @IBOutlet weak var censilus: UILabel!
+    
+    @IBOutlet weak var faringate: UILabel!
+    
 }
 
