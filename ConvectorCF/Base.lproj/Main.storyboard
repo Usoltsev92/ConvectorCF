@@ -47,11 +47,18 @@
                                 <color key="minimumTrackTintColor" systemColor="systemTealColor"/>
                                 <color key="maximumTrackTintColor" systemColor="systemPinkColor"/>
                                 <color key="thumbTintColor" systemColor="systemYellowColor"/>
+                                <connections>
+                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="XVh-mr-pzY"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="censilus" destination="aYL-oN-1Ze" id="muu-d1-Boo"/>
+                        <outlet property="faringate" destination="IUc-nP-zve" id="RdM-A8-4DP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

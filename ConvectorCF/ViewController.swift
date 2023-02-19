@@ -9,14 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet weak var censilus: UILabel!
+    @IBOutlet weak var faringate: UILabel!
     
     @IBAction func slider(_ sender: UISlider) {
     }
     
-    @IBOutlet weak var censilus: UILabel!
-    
-    @IBOutlet weak var faringate: UILabel!
+  
+
     
 }
 
